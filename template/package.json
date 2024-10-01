@@ -1,0 +1,17 @@
+{
+	"name": "sveltestrap-app-template",
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"start": "vite",
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^3.1.2",
+		"@sveltestrap/sveltestrap": "^6.2.7",
+		"svelte": "^4.2.19",
+		"vite": "^5.4.8"
+	}
+}

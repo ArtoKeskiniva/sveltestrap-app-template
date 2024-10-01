@@ -1,0 +1,8 @@
+{
+	"name": "sveltestrap-app-template",
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"create": "node create-app.js"
+	}
+}
