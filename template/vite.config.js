@@ -12,11 +12,9 @@ export default defineConfig({
 		emptyOutDir: true
 	},
 	server: {
-		host: 'localhost',
 		port: 54320
 	},
 	preview: {
-		host: 'localhost',
 		port: 54320
 	}
 })

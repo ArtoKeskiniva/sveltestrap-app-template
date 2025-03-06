@@ -7,8 +7,8 @@
         ModalFooter,
         ModalHeader,
     } from "@sveltestrap/sveltestrap";
-    let open = false;
-    let size;
+    let open = $state(false);
+    let size = $state();
     const toggle = () => {
         size = undefined;
         open = !open;

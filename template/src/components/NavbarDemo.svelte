@@ -13,7 +13,7 @@
         DropdownItem,
     } from "@sveltestrap/sveltestrap";
 
-    let isOpen = false;
+    let isOpen = $state(false);
 
     function handleUpdate(event) {
         isOpen = event.detail.isOpen;

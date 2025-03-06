@@ -3,15 +3,15 @@
 	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
-		"start": "vite",
-		"dev": "vite",
+		"start": "vite --host",
+		"dev": "vite --host",
 		"build": "vite build",
-		"preview": "vite preview"
+		"preview": "vite  --host preview"
 	},
 	"devDependencies": {
-		"@sveltejs/vite-plugin-svelte": "^3.1.2",
-		"@sveltestrap/sveltestrap": "^6.2.7",
-		"svelte": "^4.2.19",
-		"vite": "^5.4.8"
+		"@sveltejs/vite-plugin-svelte": "^5.0.3",
+		"@sveltestrap/sveltestrap": "^7.1.0",
+		"svelte": "^5.22.5",
+		"vite": "^6.2.0"
 	}
 }
